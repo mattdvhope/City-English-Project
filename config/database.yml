@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: city_english_development
+
+test:
+  <<: *default
+  database: city_english_test
+
+production:
+  <<: *default
+  database: city_english_production
+  username: city_english
+  password: <%= ENV['CITY_ENGLISH_DATABASE_PASSWORD'] %>
