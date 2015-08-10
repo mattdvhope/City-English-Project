@@ -7,13 +7,14 @@ gem 'puma'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'jquery-rails'
-gem "twitter-bootstrap-rails"
+
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'sass-rails', '>= 3.2'
 
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paratrooper'
 gem 'figaro'
-gem 'pg'
 
 gem "better_errors"
 
