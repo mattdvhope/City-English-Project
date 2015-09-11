@@ -13211,6 +13211,7 @@ $(document).ready(function() {
   $("#place_1").addClass("active");
 
   $(".page-scroll").on("click", function() {
+    event.preventDefault();
     $("#place_1").removeClass("active");
     $("#place_2").removeClass("active");
     $("#place_3").removeClass("active");
@@ -13218,12 +13219,17 @@ $(document).ready(function() {
     $(this).addClass("active");
   });
 
+  $('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
+      $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+      }, 300, 'swing');
+  });
 
-  $('a').on("click", function(){
-    $('html, body').animate({
-      scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 550, 'swing').attr('href');
-    return false;
+  $(document).on('click','.navbar-collapse.in',function(e) {
+      if( $(e.target).is('a') ) {
+          $(this).collapse('hide');
+      }
   });
 
 });
@@ -13233,4 +13239,4 @@ $(document).ready(function() {
 
 
 
-console.log("js is here!!");
+console.log("js is here!!");p
