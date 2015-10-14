@@ -3,4 +3,4 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-console.log("js is here!!");p
+console.log("js is here!!");
