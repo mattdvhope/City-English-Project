@@ -55,7 +55,7 @@
 {	
 	background-attachment:fixed;
 		background-color: #645862;
-    background-image: image-url("bg.png");
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/ccmcoversbsc/CEP_shot.jpg");
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -72,6 +72,17 @@
 @-o-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 @-ms-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+/*iframe {
+  display:block;
+  margin:auto;
+  height: 360px;
+  width: 640px;
+}*/
+
+.wistia_responsive_padding {
+  padding-bottom: 35px;
+}
 
 .inner
 {
