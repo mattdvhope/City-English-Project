@@ -213,24 +213,24 @@ h2.features-text::after {
     content: "";
 }
 
-.iconing
+.picturing
 {
 	text-align: center;
 	width:80px;
 	margin:0 auto;
 	
 }
-.iconing img
+.picturing img
 {
 	font-size: 35px;
 	text-align: center;
 	color: #fff;
 	border: 1px solid #fff;
 	display: block;
-	border-radius: 10%;
+	border-radius: 5%;
 	background: rgba(255, 255, 255, 0.1);
-	width: 80px;
-	height: 80px;
+	width: 140px;
+	height: 140px;
 	line-height: 80px;
 }
 .icon-box
