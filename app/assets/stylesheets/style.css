@@ -213,20 +213,15 @@ h2.features-text::after {
     content: "";
 }
 
-.picturing
-{
-	width:80px;
-	margin:0 auto;
-	
-}
 .picturing img
 {
+  margin: 0 auto;
 	font-size: 35px;
 	text-align: center;
 	color: #fff;
 	border: 1px solid #fff;
 	display: block;
-	border-radius: 3%;
+	border-radius: 4%;
 	background: rgba(255, 255, 255, 0.1);
 	width: 270px;
 	height: 270px;
@@ -242,12 +237,11 @@ h2.features-text::after {
 }
 .icon-text-box h4
 {
-
 	font-family: 'Roboto', sans-serif;
 	color: #2e2e2e;
 	font-weight: 400;
 	font-size: 25px;
-
+  margin: 15px 0 25px 0;
 }
 .icon-text-box p
 {
@@ -255,6 +249,7 @@ h2.features-text::after {
 	font-weight: 400;
 	font-size: 19px;
 	color: #2E2E2E;
+  margin: 0 0 55px 0;
 }
 .notes
 {
