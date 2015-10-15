@@ -56,7 +56,7 @@
 	background-attachment:fixed;
 		background-color: #645862;
     background-image: url("https://s3-ap-southeast-1.amazonaws.com/ccmcoversbsc/CEP_shot.jpg");
-		background-position: top center;
+		background-position: top left;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: white;
@@ -220,14 +220,14 @@ h2.features-text::after {
 	margin:0 auto;
 	
 }
-.iconing i
+.iconing img
 {
 	font-size: 35px;
 	text-align: center;
 	color: #fff;
 	border: 1px solid #fff;
 	display: block;
-	border-radius: 50%;
+	border-radius: 10%;
 	background: rgba(255, 255, 255, 0.1);
 	width: 80px;
 	height: 80px;
