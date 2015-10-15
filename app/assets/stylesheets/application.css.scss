@@ -1,7 +1,8 @@
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "bootstrap-theme";
-@import "style";
-@import "lightbox";
+//= require breakpoint
+//= require bootstrap
+//= require bootstrap-theme
+//= require style
+//= require lightbox
+
 @import "glyphicons";
+
